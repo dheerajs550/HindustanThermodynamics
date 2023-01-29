@@ -5,14 +5,14 @@ const Navebar = () => {
   return (
    <>
    <div className='container_home d-flex justify-content-between  navBarShadow' style={{zIndex:"9"}}>
-   <Link className="navbar-logo" href="/">
+   <Link className="navbar-logo" href="#">
     <div className=' rounded-circle m-3' style={{ height:"7vh"}}>
       <img src="logo1.jpeg" alt="logo" style={{width:"100%", height:"100%"}}/>
     </div>
    </Link>
    <div className="d-flex">
       <div className="nav_item_box box_active rounded-pill">
-        <Link className="Links" style={{color:" var(--nevTexcolor)"}} href="/">Home <span className="sr-only">(current)</span></Link>
+        <Link className="Links" style={{color:" var(--nevTexcolor)"}} href="#">Home <span className="sr-only">(current)</span></Link>
       </div>
       <div className="nav_item_box pt-2 pl-4 pr-4 rounded-pill  ">
         <Link className="Links" style={{color:" var(--nevTexcolor)"}} href="/about">About</Link>
