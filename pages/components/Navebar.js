@@ -6,7 +6,9 @@ const Navebar = () => {
    <>
    <div className='container_home d-flex justify-content-between  navBarShadow' style={{zIndex:"9"}}>
    <Link className="navbar-logo" href="/">
-    <div className='logo rounded-circle m-3'>HT</div>
+    <div className=' rounded-circle m-3' style={{ height:"7vh"}}>
+      <img src="logo1.jpeg" alt="logo" style={{width:"100%", height:"100%"}}/>
+    </div>
    </Link>
    <div className="d-flex">
       <div className="nav_item_box box_active rounded-pill">

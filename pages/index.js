@@ -3,6 +3,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import AutoPlay from './components/CarouselPoto';
 import HotProducts from './components/HotProducts';
 import FeaturedProducts from './components/FeaturedProducts';
+import AboutWork from './components/AboutWork';
+import WhyHTBox from './WhyHTBox';
+import Customers from './components/Customers';
+import Testimonials from './components/Testimonials';
 
 
 export default function Home() {
@@ -13,6 +17,7 @@ export default function Home() {
     <AutoPlay/>
     </div>
     <h1 className=' text-center'>WELCOME TO OUR WEBSITE</h1>
+    {/* ............ */}
     <div className='m-5 '>
     <div className="card mb-3 m-auto" style={{maxWidth: "740px"}}>
   <div className="row no-gutters">
@@ -31,7 +36,12 @@ export default function Home() {
 </div>
     </div>
     {/* ............second section.... */}
+<AboutWork/>
+    {/* .......... */}
+    <WhyHTBox/>
 <HotProducts/>
+<Customers/>
+<Testimonials/>
 <FeaturedProducts/>
     <style jsx>{`
 .container_home {

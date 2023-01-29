@@ -2,27 +2,30 @@ import React from 'react'
 
 const HotProducts = () => {
   return (
-    <>
+    <> 
+    <div className='bgcolor21' >
+
     <h2 className=' text-center mt-5'>thos is second box </h2>
-    <div className='hot_Products_box m-auto'>
+    <p className=' text-center'> From marketing and sales to development and operations, we have templates for every type of team <br/> 
+        and project to get your team doing the real work right away.
+
+See all templates</p>
+    <div className='hot_Products_box m-auto '>
 {/* ............. */}
 <div className="row m-auto"> 
   <div className="column">
     <img src="https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg" style={{width:"100%"}}/>
-    <img src="https://m.media-amazon.com/images/I/91GUw+VWZ0L._SX679_.jpg" style={{width:"100%"}}/>
     <img src="https://m.media-amazon.com/images/I/51mZf+UsQ9L._SX300_SY300_.jpg" style={{width:"100%"}}/>
 
   </div>
   <div className="column">
   <img src="https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg" style={{width:"100%"}}/>
-    <img src="https://m.media-amazon.com/images/I/91GUw+VWZ0L._SX679_.jpg" style={{width:"100%"}}/>
     <img src="https://m.media-amazon.com/images/I/51mZf+UsQ9L._SX300_SY300_.jpg" style={{width:"100%"}}/>
 
 
   </div>
   <div className="column">
   <img src="https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg" style={{width:"100%"}}/>
-    <img src="https://m.media-amazon.com/images/I/91GUw+VWZ0L._SX679_.jpg" style={{width:"100%"}}/>
     <img src="https://m.media-amazon.com/images/I/51mZf+UsQ9L._SX300_SY300_.jpg" style={{width:"100%"}}/>
   </div>
  
@@ -30,10 +33,13 @@ const HotProducts = () => {
 
 {/* ... */}
     </div>
+    </div>
+
     <style jsx>{`
 .hot_Products_box {
-  background:var(--orange);
-  box-shadow:var(--boxShadow);
+  
+//   background:var(--orange);
+//   box-shadow:var(--boxShadow);
   height: 100%;
   width: 70%;
  

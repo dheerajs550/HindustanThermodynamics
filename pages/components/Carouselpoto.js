@@ -36,16 +36,16 @@ export default class AutoPlay extends Component {
       
       <style jsx>{`
 .pohoto_Box_Slaitd {
-  background:red;
-  box-shadow:var(--boxShadow);
+  // background:red;
+  // box-shadow:var(--boxShadow);
   height: 50vh;
   width: 100%;
  
 }
   
 .CarouselPotoBox{
-  background:var(--yellow);
-  box-shadow:var(--boxShadow);
+  // background:var(--yellow);
+  // box-shadow:var(--boxShadow);
   height: 50vh;
   width: 99%;
 }
