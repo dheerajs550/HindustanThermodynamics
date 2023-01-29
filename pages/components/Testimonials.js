@@ -1,6 +1,3 @@
-
-
-
 import React, { Component } from "react";
 import Slider from "react-slick";
 
@@ -12,9 +9,7 @@ export default class Testimonials extends Component {
       infinite: true,
       slidesToShow: 1,
       slidesToScroll: 1,
-    //   autoplay: true,
       speed: 2000,
-    //   autoplaySpeed: 2000,
       cssEase: "linear"
     };
 
